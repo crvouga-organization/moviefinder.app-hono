@@ -34,7 +34,7 @@ async function runFly(): Promise<void> {
   const image = process.env.DEPLOY_IMAGE
   if (!image) {
     throw new Error(
-      'DEPLOY_IMAGE is required (e.g. ghcr.io/crvouga/moviefinder.app-hono:latest)',
+      'DEPLOY_IMAGE is required (e.g. ghcr.io/crvouga-organization/moviefinder.app-hono:latest)',
     )
   }
   fly.assertRegistryImage(image)

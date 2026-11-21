@@ -19,7 +19,7 @@
     "lint:filenames": "bun scripts/check-kebab-case.ts",
     "lint": "bun run format:check && bun run lint:filenames && bun run tc",
     "tc": "bunx tsc --noEmit",
-    "gh": "open https://github.com/crvouga/moviefinder.app-hono.git"
+    "gh": "open https://github.com/crvouga-organization/moviefinder.app-hono.git"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
