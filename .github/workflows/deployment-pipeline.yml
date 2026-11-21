@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ghcr.io/crvouga-organization/moviefinder.app-hono
+  IMAGE_NAME: ghcr.io/crvouga/moviefinder.app-hono
 
 jobs:
   check:
@@ -172,7 +172,7 @@ jobs:
           | **Site** | https://www.moviefinder.app |
           | **Apex redirect** | https://moviefinder.app → www |
           | **Fly app** | chrisvouga-moviefinder |
-          | **Image** | ghcr.io/crvouga-organization/moviefinder.app-hono:${SHORT_SHA} |
+          | **Image** | ghcr.io/crvouga/moviefinder.app-hono:${SHORT_SHA}              |
 
           ---
           _[View workflow run](${RUN_URL})_

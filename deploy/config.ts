@@ -6,7 +6,7 @@
 export const APP_NAME = 'moviefinder'
 
 /** OCI image repository (built in CI; hosting only promotes a pushed tag). */
-export const CONTAINER_IMAGE_REPO = 'ghcr.io/crvouga-organization/moviefinder.app-hono'
+export const CONTAINER_IMAGE_REPO = 'ghcr.io/crvouga/moviefinder.app-hono'
 
 export const FLY_PREFIX = 'chrisvouga-'
 export const FLY_APP = `${FLY_PREFIX}${APP_NAME}`
